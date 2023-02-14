@@ -6,7 +6,6 @@
 	HINT.css - A CSS tooltip library
 \*-------------------------------------*/
 
-
 /**
  * HINT.css is a tooltip library made in pure CSS.
  *
@@ -15,13 +14,15 @@
  *
  */
 
-@import "hint-variables";
-@import "hint-mixins";
-@import "hint-core";
-@import "hint-position";
-@import "hint-sizes";
-@import "hint-theme";
-@import "hint-color-types";
-@import "hint-always";
-@import "hint-rounded";
-@import "hint-effects";
+@media (hover: hover) {
+	@import "hint-variables";
+	@import "hint-mixins";
+	@import "hint-core";
+	@import "hint-position";
+	@import "hint-sizes";
+	@import "hint-theme";
+	@import "hint-color-types";
+	@import "hint-always";
+	@import "hint-rounded";
+	@import "hint-effects";
+}
