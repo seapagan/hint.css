@@ -7,7 +7,8 @@
 	"main": "hint.css",
 	"homepage": "https://kushagra.dev/lab/hint/",
 	"scripts": {
-		"dev": "watch 'grunt' ./src"
+		"dev": "watch 'grunt' ./src",
+		"deploy": "grunt deploy"
 	},
 	"author": {
 		"name": "Kushagra Gour",
@@ -31,12 +32,12 @@
 		"hint"
 	],
 	"devDependencies": {
-		"grunt": "~0.4.1",
-		"grunt-contrib-concat": "~0.3.0",
-		"grunt-contrib-cssmin": "~0.12.3",
-		"grunt-contrib-watch": "~0.5.3",
-		"grunt-sass": "^3.0.2",
-		"node-sass": "^4.13.1",
+		"grunt": "~1.6.1",
+		"grunt-contrib-concat": "~2.1.0",
+		"grunt-contrib-cssmin": "~4.0.0",
+		"grunt-contrib-watch": "~1.1.0",
+		"grunt-sass": "^3.1.0",
+		"node-sass": "^8.0.0",
 		"watch": "^1.0.2"
 	}
 }
